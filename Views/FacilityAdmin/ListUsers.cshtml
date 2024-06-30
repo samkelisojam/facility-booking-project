@@ -1,0 +1,45 @@
+﻿@model List<AppUser>
+
+@{
+    Layout = "_FacilityAdminLayout";
+    ViewBag.Title = "ListUsers";
+}
+
+<h2 class="my-4">User List</h2>
+<a asp-action="RegisterFacilityStaff" asp-controller="FacilityAdmin" class="btn btn-primary">Add Facility Staff Member</a>
+<table class="table table-bordered table-striped">
+    <thead class="bg-primary text-white">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>User Type</th>
+            <th>Dismiss</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.Email</td>
+                <td>@user.userType</td>
+                <td>
+                    @if (user.UserName != User.Identity.Name)
+                    {
+
+
+
+
+                        <form asp-controller="FacilityAdmin" asp-action="DeleteUser" asp-route-userId="@user.Id" method="post">
+                            <button type="submit" class="btn btn-success">Dismiss</button>
+                        </form>
+
+                    }
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,32 @@
+﻿@model List<Facility>
+
+@{
+    Layout = "_SideLayout";
+    ViewBag.Title = "ManageFacility";
+}
+<h2>Welcome to Facilities</h2>
+
+<div class="row">
+    <div class="col-md-12 mb-3">
+        <a asp-action="CreateFacility" asp-controller="FacilityManager" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Add Facility
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    @foreach (Facility p in Model)
+    {
+        <div class="col-md-6">
+            <div class="card">
+                <partial name="_PartialFacility" model="p" />
+                <a asp-action="Update" asp-controller="FacilityManager" asp-route-id="@p.FacilityId" class="btn btn-success">
+                    <i class="fas fa-edit"></i> Update Facility
+                </a>
+                <a asp-action="Delete" asp-controller="FacilityManager" asp-route-id="@p.FacilityId" class="btn btn-danger">
+                    <i class="fas fa-trash"></i> Delete Facility
+                </a>
+            </div>
+        </div>
+    }
+</div>

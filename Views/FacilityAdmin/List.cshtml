@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Facility>
+
+@{
+   
+    Layout = "_FacilityAdminLayout";
+    ViewBag.Title = "Manage Facility";
+
+}
+
+<h2>Manage Facility</h2>
+
+<div class="row">
+    @foreach (Facility p in Model)
+    {
+        <div class="col-md-6">
+            <div class="card">
+                <partial name="_PartialFacility" model="p" />
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <a asp-action="Update" asp-controller="FacilityAdmin" asp-route-id="@p.FacilityId" class="btn btn-success">Add Capacity</a>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <a asp-action="Delete" asp-controller="FacilityAdmin" asp-route-id="@p.FacilityId" class="btn btn-danger">Delete Capacity</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,197 @@
+﻿@model IEnumerable<Facility>
+
+@{
+    ViewData["Title"] = "Home";
+}
+<style>
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .card-img-top {
+        height: 100px;
+        object-fit: cover; 
+    }
+    .Back {
+        background-image: url('images/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+        .Back h1 {
+            font-size: 3rem;
+        }
+
+        .Back p {
+            font-size: 1.5rem;
+        }
+
+    .btn-primary {
+        font-size: 1.25rem;
+        padding: 10px 20px;
+    }
+</style>
+
+<section class="Back container-fluid text-light">
+    <div class="ps-5">
+        <h1>UFS-FACILITY BOOKING</h1>
+        <p>"Simplify facility reservations with our online booking system."</p>
+         @if (!User.Identity.IsAuthenticated)
+          {
+        <a asp-controller="Account" asp-action="Register" class="btn btn-primary">Register Now!</a>
+        }
+    </div>
+</section>
+
+
+
+
+
+<section class="features py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature text-center">
+                    <i class="fas fa-calendar-alt fa-3x mb-3"></i>
+                    <h3 id="F1">Book Facilities</h3>
+                    <p>Book your desired facilities in advance.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature text-center">
+                    <i class="fas fa-money-check-alt fa-3x mb-3"></i>
+                    <h3>Easy Payments</h3>
+                    <p>Make payments securely online.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature text-center">
+                    <i class="fas fa-history fa-3x mb-3"></i>
+                    <h3>Booking History</h3>
+                    <p>View your booking history anytime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div>
+    <section class="mt-5">
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2 class="display-4 fw-bold">Facilities</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container d-flex justify-content-center align-items-stretch">
+                            <div class="card bg-light text-dark text-center p-3" style="height: 100%;">
+                                <div class="card-body">
+                                <img src="~/images/StudyHall.jpeg" class="card-img-top" alt="Gym">
+                                <div class="card-body">
+                                    <h5 class="card-title">Library</h5>
+                                        <p class="card-text">"Library: A valuable institution found in schools, universities, and communities</p>
+                                    <p class="card-text">Price: R50.00</p>
+
+                                      @if (User.Identity.IsAuthenticated)
+                            {
+
+
+                                @if (User.IsInRole("Student") || User.IsInRole("Visitor") || User.IsInRole("Staff"))
+                                {
+                                        <a asp-controller="Booking" asp-action="AddBooking" class="btn btn-primary">Book</a>
+                                }
+                            }
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container d-flex justify-content-center align-items-stretch">
+                            <div class="card bg-light text-dark text-center p-3" style="height: 100%;">
+                                <div class="card-body">
+                                    <img src="~/images/LaundryRoom.jpg" class="card-img-top" alt="Gym">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Laundry</h5>
+                                        <p class="card-text">"Student laundry: On-campus facilities or services where students can wash and dry their clothes</p>
+                                        <p class="card-text">Price: R10.00 pd</p>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+
+
+                                            @if (User.IsInRole("Student") || User.IsInRole("Visitor") || User.IsInRole("Staff"))
+                                            {
+                                                <a asp-controller="Booking" asp-action="AddBooking" class="btn btn-primary">Book</a>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container d-flex justify-content-center align-items-stretch">
+                            <div class="card bg-light text-dark text-center p-3" style="height: 100%;">
+                                <div class="card-body">
+                                    <img src="~/images/Gym.jpg" class="card-img-top" alt="Gym">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Parking</h5>
+                                        <p class="card-text">Student parking: Reserved spots near schools and colleges for student vehicles, ensuring convenient access during class and campus activities, typically requiring permits for fair access.</p>
+                                        <p class="card-text">Price: R10.00 pd</p>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+
+
+                                            @if (User.IsInRole("Student") || User.IsInRole("Visitor") || User.IsInRole("Staff"))
+                                            {
+                                                <a asp-controller="Booking" asp-action="AddBooking" class="btn btn-primary">Book</a>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container d-flex justify-content-center align-items-stretch">
+                            <div class="card bg-light text-dark text-center p-3" style="height: 100%;">
+                                <div class="card-body">
+                                    <img src="~/images/parking.jpeg" class="card-img-top" alt="Gym">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Gym</h5>
+                                        <p class="card-text">University Gym: A fitness facility within a university campus designed to promote physical well-being and healthy lifestyles .</p>
+                                        <p class="card-text">Price: R10.00 pd</p>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+
+
+                                            @if (User.IsInRole("Student") || User.IsInRole("Visitor") || User.IsInRole("Staff"))
+                                            {
+                                                <a asp-controller="Booking" asp-action="AddBooking" class="btn btn-primary">Book</a>
+                                            }
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</div>
+

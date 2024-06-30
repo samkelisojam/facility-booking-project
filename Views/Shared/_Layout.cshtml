@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!-- CSIQ3784 (2023)-->
+<!--Samkeliso ndlangamandla
+<!--2019754833
+<!DOCTYPE html>
+
+
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!-- Font Awesome -->
+<link rel="stylesheet" asp-href-include="/lib/font-awesome/css/all.min.css" />
+
+<!-- Custom style sheet-->
+<link rel="stylesheet" asp-href-include="/css/site.css" />
+
+<title>UfsBookingOnline - @ViewData["Title"]</title>
+    </head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">Ufs-facilityBooking</a>
+
+            <!-- Toggler/collapsible Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#MyNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse justify-content-stretch"
+                 id="MyNavbar">
+
+
+                <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-link" href="#F1">Facility</a>
+                        <a class="nav-link" asp-controller="Home" asp-action="AboutUs">About</a>
+
+
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+
+
+                            @if (User.IsInRole("Student") || User.IsInRole("Visitor") || User.IsInRole("Staff"))
+                            {
+
+                                <a class="nav-link" asp-controller="Booking" asp-action="AddBooking">Book Facilities</a>
+
+
+
+                                <a class="nav-link" asp-controller="Users" asp-action="MyBooking">My Bookings</a>
+
+
+
+                                <a asp-controller="Users" asp-action="NotificationMessage" class="message-icon">
+                                    <i class="fa fa-envelope" style="font-size: 24px;"></i>
+                                </a>
+
+
+                            }
+
+
+                            @if (User.IsInRole("FacilityManager"))
+                            {
+                                <a asp-controller="FacilityManager" asp-action="Index" class="nav-link">FacilityManager-Dashboard</a>
+
+
+                            }
+                            @if (User.IsInRole("FacilityAdmin"))
+                            {
+                                <a class="nav-link" asp-controller="FacilityAdmin" asp-action="GenerateReport" class="nav-link">Admin-Dashbord</a>
+
+                            }
+                            @if (User.IsInRole("FacilityInCharge"))
+                            {
+                                <a class="nav-link" asp-controller="FacilityInCharge" asp-action="Bookingdetails" class="nav-link">BookingDetails</a>
+
+                            }
+
+
+                        }
+
+
+
+
+                    </div>
+
+                    <div class="navbar-nav navbar-right">
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-link">Hello, @User.Identity.Name</li>
+
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+
+                                <button class="btn btn-link nav-link" type="submit">Log Out</button>
+
+                            </form>
+
+                            @if (User.IsInRole("Student") || User.IsInRole("Visitor") || User.IsInRole("Staff"))
+                            {
+                                <li class="nav-item dropdown"> 
+                                    <a asp-action="Index" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Edit Profile</a>
+
+                                    <div class="dropdown-menu dropdown-menu-end shadow-sm">
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="EditProfile">
+                                            Edit Profile
+                                        </a>
+                                        <a class="dropdown-item" asp-controller="Account" asp-action="ChangePassword">
+                                            Change Password
+                                        </a>
+                                    </div>
+                                   
+                                </li>
+                                
+
+                            }
+                            @if (User.IsInRole("FacilityInCharge"))
+                            {
+
+                                <a class="nav-link" asp-controller="Account" asp-action="EditProfile">
+                                    <i class="fas fa-edit"></i> Edit Profile
+                                </a>
+
+                            }
+                        }
+                        else
+                        {
+                            <a class="nav-link" asp-controller="Account" asp-action="LogIn">SignIn</a>
+                            <a class="nav-link" asp-controller="Account" asp-action="Register">Register Account</a>
+                        }
+                    </div>
+
+                </nav>
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="">
+        <div class="">
+            @RenderBody()
+        </div>
+    </div>
+
+    <div class="border-top footer text-muted">
+        <div class="">
+            &copy; 2020 - Facility in charge
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script asp-src-include="lib/jquery/jquery.slim.min.js"></script>
+
+    <script asp-src-include="lib/popper.js/popper.min.js"></script>
+
+    <script asp-src-include="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
+
+

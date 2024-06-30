@@ -1,0 +1,79 @@
+﻿@model FeedBack
+
+@{
+    ViewData["Title"] = "Cash Payment Confirmation";
+}
+
+<style>
+
+
+    .container {
+        text-align: center;
+        padding: 20px;
+    }
+
+ 
+    .payment-confirmation {
+        background-color: #f0f8ff; 
+        border: 1px solid #87ceeb; 
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px; 
+    }
+
+       
+        .payment-confirmation strong {
+            font-weight: bold;
+            color: #333; 
+        }
+
+
+</style>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-success" role="alert payment-confirmation">
+                <h4 class="alert-heading">Your booking was done successfully!</h4>
+                <p>Payment will be done at the entrance by the facility in charge.</p>
+                <hr>
+                <p class="mb-0">Thank you for choosing our facility.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="bg-warning-subtle">
+                <h2>Add a Rating and Review</h2>
+                <form asp-action="AddRating" method="post">
+                    <div class="form-group">
+                        <label for="Rate">Rating:</label>
+                        <select asp-for="Rate" class="form-control">
+                            <option value="1">1 Star</option>
+                            <option value="2">2 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="5">5 Stars</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="Comment">Review:</label>
+                        <textarea asp-for="Comment" class="form-control" rows="4"></textarea>
+                    </div>
+
+                    <input type="hidden" asp-for="UserNameCoomnter" value="@User.Identity.Name" />
+                    <input type="hidden" asp-for="dateTime" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+
+                    <button type="submit" class="btn btn-primary">Submit Rating</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

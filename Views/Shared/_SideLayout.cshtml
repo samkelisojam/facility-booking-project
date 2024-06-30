@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "_Layout";
+
+}
+<h2>Welcome Facility Manager</h2>
+<br/>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 sidebar">
+            <div class="sidebar-header">
+                <img src="~/images/uniqwa.jpg" alt="My Image" class="sidebar-image" style="max-width: 310px; max-height: 150px;" class="img-fluid">
+            </div>
+            <div class="list-group">
+                <a asp-controller="Account" asp-action="ChangePassword" class="list-group-item"><i class="fas fa-key"></i> Change Password</a>
+          
+                <a asp-controller="FacilityManager" asp-action="reviews" class="list-group-item"><i class="fas fa-star"></i> Reviews</a>
+                <a asp-controller="FacilityManager" asp-action="ManageFacility" class="list-group-item"><i class="fas fa-cogs"></i> Manage Facilities</a>
+                <a asp-controller="FacilityManager" asp-action="Index" class="list-group-item"><i class="fas fa-calendar"></i> List Facility Bookings</a>
+                <a asp-controller="FacilityManager" asp-action="ListTransactions" class="list-group-item"><i class="fas fa-money-bill"></i> List Transactions</a>
+            </div>
+        </div>
+
+        <!-- Content Area -->
+        <div class="col-md-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+

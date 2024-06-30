@@ -1,0 +1,64 @@
+﻿@model List<FacilityBookingViewModel>
+
+@{
+    Layout = "_FacilityAdminLayout";
+    ViewBag.Title = "OrdersBooking";
+}
+
+<h2 class="my-4">All Facilities with Bookings</h2>
+
+@foreach (var facilityBookingPair in Model)
+{
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h3>@facilityBookingPair.Facility.Name</h3>
+        </div>
+        <div class="card-body">
+            @if (facilityBookingPair.Bookings.Any())
+            {
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <thead class="bg-primary text-white">
+                            <tr>
+                                <th>Booking Date</th>
+                                <th>Start Time</th>
+                                <th>End Time</th>
+                                <th>Is Confirmed</th>
+                                <th>Total Amount</th>
+                                <th>Person Who Booked</th>
+                                <th>Type of Payment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var booking in facilityBookingPair.Bookings)
+                            {
+                                <tr>
+                                    <td>@booking.BookingDate.ToShortDateString()</td>
+                                    <td>@booking.StartTime</td>
+                                    <td>@booking.EndTime</td>
+                                    <td>
+                                        @if (booking.IsConfirmed)
+                                        {
+                                            <span class="badge badge-success">Yes</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-danger">No</span>
+                                        }
+                                    </td>
+                                    <td>@booking.TotalAmount</td>
+                                    <td>@booking.UserName</td>
+                                    <td>@booking.PaymentStatus</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            else
+            {
+                <p>No bookings found for this facility.</p>
+            }
+        </div>
+    </div>
+}

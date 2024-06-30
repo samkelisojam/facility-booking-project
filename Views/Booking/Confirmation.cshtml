@@ -1,0 +1,65 @@
+﻿@model FeedBack
+@{
+    ViewBag.Title = "Confirmation Of Payment";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Content for the left div -->
+            <div class="card">
+                <div class="card-body">
+                    <h1>Thank you for booking! Email confirmation of your booking was sent to you with Entrance QR code.</h1>
+
+                    <br />
+
+                    @if (!string.IsNullOrEmpty(ViewBag.URL))
+                    {
+                        <div class="col-lg-12">
+                            <a href="@Url.Content(ViewBag.URL)" download="QRCodeImage.png">
+                                <img src="@Url.Content(ViewBag.URL)" alt="QR Code Image" />
+                                <button class="btn btn-outline-success"><i class="fas fa-download"></i> Download QR Code</button>
+                            </a>
+                        </div>
+                    }
+
+                    <br />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+         
+
+<h2 class="bg-warning">Add a Rating and Review</h2>
+
+            <form asp-action="AddRating" method="post" class="bg-warning-subtle">
+    <div class="form-group">
+        <label for="Rate">Rating:</label>
+        <select asp-for="Rate" class="form-control">
+            <option value="1">1 Star</option>
+            <option value="2">2 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="5">5 Stars</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="Comment">Review:</label>
+        <textarea asp-for="Comment" class="form-control" rows="4"></textarea>
+    </div>
+    
+  
+    <input type="hidden" asp-for="UserNameCoomnter" value="@User.Identity.Name" />
+
+   
+    <input type="hidden" asp-for="dateTime" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+    
+    <button type="submit" class="btn btn-primary">Submit Rating</button>
+</form>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    // Your JavaScript code for rating here
+</script>

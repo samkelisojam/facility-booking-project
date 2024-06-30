@@ -1,0 +1,48 @@
+﻿@model List<FacilityBookingViewModel>
+
+<h2>All Facilities with Bookings</h2>
+@{
+    
+    ViewBag.Title = "DetailOrder";
+}
+
+@foreach (var facilityBookingPair in Model)
+{
+    <h3>@facilityBookingPair.Facility.Name</h3>
+
+    @if (facilityBookingPair.Bookings.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Booking Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Is Confirmed</th>
+                    <th>Total Amount</th>
+            
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var booking in facilityBookingPair.Bookings)
+                {
+                    <tr>
+                        <td>@booking.BookingDate.ToShortDateString()</td>
+                        <td>@booking.StartTime</td>
+                        <td>@booking.EndTime</td>
+                        <td>@booking.IsConfirmed </td>
+                        <td>@booking.TotalAmount</td>
+                        <td>
+                            <a class="btn btn-danger" asp-controller="Users" asp-action="ReschenduleBooking" asp-route-bookingId="@booking.BookingId">Reschedule</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No bookings found for this facility.</p>
+    }
+}
+

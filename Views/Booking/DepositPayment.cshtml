@@ -1,0 +1,54 @@
+﻿@model DepositViewModel
+@{
+    ViewBag.Title = "Make Payment of Booking Details";
+    var bookingDetail = ViewBag.BookingDetail;
+    var bookingDetailsArray = bookingDetail.Split('\t');
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Booking Information</h4>
+        @if (bookingDetailsArray.Length >= 4)
+        {
+            <div>
+                <h2>Facility:</h2>
+                <p>@bookingDetailsArray[0]</p>
+            </div>
+
+            <div>
+                <h2>Start Time:</h2>
+                <p>@bookingDetailsArray[1]</p>
+            </div>
+
+            <div>
+                <h2>End Time:</h2>
+                <p>@bookingDetailsArray[2]</p>
+            </div>
+
+            <div>
+                <h2>Total Amount:</h2>
+                <p>@bookingDetailsArray[3]</p>
+            </div>
+        }
+    </div>
+    <div class="col-md-6">
+        <h4>Select Payment Method</h4>
+        <form id="paymentForm">
+
+            <div>
+              
+                <div class="form-group">
+                    <label asp-for="DepositReference">Deposit Reference</label>
+                    <input asp-for="DepositReference" class="form-control">
+                </div>
+            </div>
+
+            <button type="button" id="submitPayment" class="btn btn-primary">Make Payment</button>
+            <a href="@Url.Action("DepositPayment", "YourController", new { booking = ViewBag.BookingDetail })" class="btn btn-primary">Deposit Payment</a>
+
+
+            <a asp-action="CancelBokking" asp-controller="Booking" class="btn btn-danger">Cancel Booking</a>
+        </form>
+    </div>
+</div>
+

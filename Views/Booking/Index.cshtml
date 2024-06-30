@@ -1,0 +1,56 @@
+﻿@model DisplayViewModel
+@{
+    ViewBag.Title = "My -Booking";
+}
+@if (Model.Booking.Count() == 0)
+{
+    <p>You do not currently have any Booking assigned to you.</p>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="bg-primary text-white">
+                <tr>
+                    <th></th>
+                    <th>Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Booking Status</th>
+                    <td>Payment Type</td>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var a in Model.Booking)
+                {
+                    <tr>
+                        <td>@a.BookingId</td>
+                        <td>@a.BookingDate</td>
+                        <td>@a.StartTime</td>
+                        <td>@a.EndTime</td>
+                        <td>@a.PaymentStatus</td>
+                        <td>
+                            @if (a.IsConfirmed)
+                            {
+                                <i class="fas fa-check-circle text-success"></i>
+                                <span>Confirmed</span>
+                            }
+                            else
+                            {
+                                <i class="fas fa-times-circle text-danger"></i>
+                                <span>Not Confirmed</span>
+                            }
+                        </td>
+
+                        <td>
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-edit"></i> Reschedule
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

@@ -1,0 +1,877 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\University of free state booking Facilities.bundle.scp.css",
+      "PackagePath": "staticwebassets\\University of free state booking Facilities.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\Background.png",
+      "PackagePath": "staticwebassets\\Images\\Background.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\Gym.jpg",
+      "PackagePath": "staticwebassets\\Images\\Gym.jpg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\Gym5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Gym5.jpg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\GymCenter.jpeg",
+      "PackagePath": "staticwebassets\\Images\\GymCenter.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\LaundryRoom.jpg",
+      "PackagePath": "staticwebassets\\Images\\LaundryRoom.jpg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\Parking.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Parking.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_1747.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_1747.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_2269.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_2269.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_3256.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_3256.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_3344.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_3344.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_4060.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_4060.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_4220.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_4220.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_4618.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_4618.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_4758.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_4758.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_5002.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_5002.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_5008.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_5008.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_5687.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_5687.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_6418.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_6418.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_6539.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_6539.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_6987.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_6987.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_7168.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_7168.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_7547.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_7547.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_8309.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_8309.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_8352.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_8352.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_8806.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_8806.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_9188.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_9188.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_9352.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_9352.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_9417.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_9417.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_9812.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_9812.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\QrcodeNew_9882.png",
+      "PackagePath": "staticwebassets\\Images\\QrcodeNew_9882.png"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\Sport.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Sport.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\StudyHall.jpeg",
+      "PackagePath": "staticwebassets\\Images\\StudyHall.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\bg.jpg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\gym1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\gym1.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\gym2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\gym2.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\qqwawa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\qqwawa.jpeg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\Images\\uniqwa.jpg",
+      "PackagePath": "staticwebassets\\Images\\uniqwa.jpg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\Presentation_Sam_Initial\\University of free state booking Facilities\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.University of free state booking Facilities.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.University of free state booking Facilities.props",
+      "PackagePath": "build\\University of free state booking Facilities.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.University of free state booking Facilities.props",
+      "PackagePath": "buildMultiTargeting\\University of free state booking Facilities.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.University of free state booking Facilities.props",
+      "PackagePath": "buildTransitive\\University of free state booking Facilities.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

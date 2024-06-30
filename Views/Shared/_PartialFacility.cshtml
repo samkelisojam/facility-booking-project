@@ -1,0 +1,23 @@
+﻿@model Facility
+<div class="card">
+    <div class="card-body">
+        <img class="card-img" src="@Model.ImageThumbnailUrl" alt="@Model.Name">
+        <div class="card-text">
+            <h5 class="text-right">R:@Model.Price.ToString()</h5>
+            <h3>
+                <a asp-action="Details" asp-route-id="@Model.FacilityId">
+                    @Model.Name
+                </a>
+            </h3>
+            <p>
+                <span class="float-right" style="font-size: 24px; font-weight: bold;">
+                    @Model.MaxUsersAtOnce
+                </span>
+                Maximum Users
+            </p>
+          
+        </div>
+    </div>
+</div>
+
+

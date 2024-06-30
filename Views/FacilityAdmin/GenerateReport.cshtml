@@ -1,0 +1,101 @@
+﻿@model List<FacilityInfoViewModel>
+
+@{
+    Layout = "_FacilityAdminLayout";
+    ViewBag.Title = "Summary Report";
+}
+
+<div id="invoice">
+
+    <div class="toolbar hidden-print">
+        <div class="text-right">
+           
+           
+            <a id="generateReportBtn" class="btn btn-info" asp-action="PrintGenerateReport"><i class="fa fa-file-pdf-o"></i> Download detailed</a>
+        </div>
+        <hr>
+    </div>
+    <div class="invoice overflow-auto">
+        <div style="min-width: 600px">
+            <header>
+                <div class="row">
+                    <div class="col">
+                        Summary Report 
+
+                    </div>
+                    <div class="col company-details">
+                        <h4 class="name">
+                            <a target="_blank" href="https://lobianijs.com">
+                                facility Report
+                            </a>
+                        </h4>
+                        <div>Ufs, Qwaqwa campus, free state</div>
+
+                    </div>
+                </div>
+            </header>
+            <main>
+               
+                <table border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th class="text-left">Facility Name</th>
+                            <th class="text-right">Total Bookings</th>
+                            <th class="text-right">Total Amount</th>
+                      
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach(var item in Model)
+                    {
+                      
+                            <tr>
+                                <td class="no">04</td>
+                                <td class="text-left">
+                            
+                                     
+                                       @item.FacilityName
+                                                                          
+                               
+                                </td>
+                                <td class="unit">@item.TotalBookings</td>
+                                <td class="qty">@item.TotalAmount</td>
+                           
+                            </tr>
+                    
+                        
+
+                    }
+                   
+                   
+                    </tbody>
+                   
+                </table>
+
+            </main>
+            <footer>
+                Invoice was created on a computer and is valid without the signature and seal.
+            </footer>
+        </div>
+     
+        <div></div>
+    </div>
+</div>
+<script>
+
+    $('#printInvoice').click(function () {
+        Popup($('.invoice')[0].outerHTML);
+        function Popup(data) {
+            window.print();
+            return true;
+        }
+    });
+
+    $(document).ready(function () {
+        $('#generateReportBtn').click(function () {
+            // Redirect to the GenerateReport action to initiate the download
+            window.location.href = '@Url.Action("GenerateReport", "Admin")';
+        });
+    });
+</script>

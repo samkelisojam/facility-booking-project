@@ -1,0 +1,68 @@
+﻿@model CardViewModel
+@{
+    ViewBag.Title = "Make Payment of Booking Details";
+    var bookingDetail = ViewBag.BookingDetail;
+    var bookingDetailsArray = bookingDetail.Split('\t');
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Booking Information</h4>
+        @if (bookingDetailsArray.Length >= 4)
+        {
+            <div>
+                <h2>Facility:</h2>
+                <p>@bookingDetailsArray[0]</p>
+            </div>
+
+            <div>
+                <h2>Start Time:</h2>
+                <p>@bookingDetailsArray[1]</p>
+            </div>
+
+            <div>
+                <h2>End Time:</h2>
+                <p>@bookingDetailsArray[2]</p>
+            </div>
+
+            <div>
+                <h2>Total Amount:</h2>
+                <p>@bookingDetailsArray[4]</p>
+            </div>
+        }
+    </div>
+    <div class="col-md-6">
+        <h4>Select Payment Method</h4>
+        <form asp-controller="Booking" asp-action="CardPayment" method="post" asp-route-booking="@ViewBag.BookingDetail">
+            <p><strong style="color: red;">Note:</strong> Once a booking is made, it cannot be canceled but can only be rescheduled.</p>
+
+            <div id="creditCardFields">
+                <!-- Use UserBanking model properties with asp-for -->
+                <div class="form-group">
+                    <label asp-for="CardNumber">Card Number</label>
+                    <input asp-for="CardNumber" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ExpirationDate">Expiration Date</label>
+                    <input asp-for="ExpirationDate" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CVV">CVV</label>
+                    <input asp-for="CVV" class="form-control" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-credit-card"></i> Make Payment
+            </button>
+
+            <a asp-action="CashPayment" class="btn btn-primary">
+                <i class="fas fa-wallet"></i> Payment At Entrence
+            </a>
+
+            <a asp-action="Index" asp-controller="Home" class="btn btn-danger">
+                <i class="fas fa-times"></i> Cancel Booking
+            </a>
+        </form>
+    </div>
+</div>

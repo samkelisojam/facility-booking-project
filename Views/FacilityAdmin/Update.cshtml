@@ -1,0 +1,19 @@
+﻿@model Facility
+
+@{
+    Layout = "_FacilityAdminLayout";
+    ViewBag.Title = "Update Capacity";
+}
+<form asp-action="Update" method="post">
+    <div class="form-group">
+        <label asp-for="MaxUsersAtOnce">Maximum Users At Once</label>
+        <input asp-for="MaxUsersAtOnce" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="FacilityId" />
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+
+<a   asp-action="List">Back to List</a>
+

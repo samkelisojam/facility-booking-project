@@ -1,0 +1,35 @@
+﻿@model List<AppUser>
+
+@{
+    Layout = "_FacilityAdminLayout";
+    ViewBag.Title = "ListFacilityInCharge";
+}
+
+<h2>Facility-in-charge Users</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="bg-primary text-white">
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>In charge of:</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>
+                    
+                    <i class="fas fa-building"></i> @user.facility
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

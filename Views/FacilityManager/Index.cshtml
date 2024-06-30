@@ -1,0 +1,72 @@
+﻿@{
+    Layout = "_SideLayout";
+    ViewBag.Title = "Orders";
+}
+
+@model List<FacilityBookingViewModel>
+
+<h2 class="my-4">All Facilities with Bookings</h2>
+
+@foreach (var facilityBookingPair in Model)
+{
+    <div class="card my-4">
+        <div class="card-header bg-info text-white">
+            <h3>@facilityBookingPair.Facility.Name</h3>
+        </div>
+        <div class="card-body">
+            @if (facilityBookingPair.Bookings.Any())
+            {
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Booking Date</th>
+                            <th>Start Time</th>
+                            <th>End Time</th>
+                            <th>Is Confirmed</th>
+                            <th>Total Amount</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var booking in facilityBookingPair.Bookings)
+                        {
+                            <tr>
+                                <td>@booking.BookingDate.ToShortDateString()</td>
+                                <td>@booking.StartTime</td>
+                                <td>@booking.EndTime</td>
+                                <td>
+                                    @if (booking.IsConfirmed)
+                                    {
+                                        <i class="fas fa-check text-success"></i>
+                                        <span>Confirmed </span>
+                                    }
+                                    else
+                                    {
+                                        <i class="fas fa-times text-danger"></i>
+                                        <span>Not Confirmed</span>
+                                    }
+                                </td>
+                                <td>@booking.TotalAmount</td>
+                                <td>
+                                    @if (!booking.IsConfirmed)
+                                    {
+                                        <form method="post" asp-action="ApproveBooking">
+                                            <input type="hidden" name="bookingId" value="@booking.BookingId" />
+                                            <button type="submit" class="btn btn-success">
+                                                <i class="fas fa-check"></i> Approve
+                                            </button>
+                                        </form>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>No bookings found for this facility.</p>
+            }
+        </div>
+    </div>
+}

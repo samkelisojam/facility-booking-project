@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+@{
+    Layout = "_Layout";
+    string action = ViewContext.RouteData.Values["action"].ToString();
+}
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <main>
+        <br /><br />
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="list-group">
+                    <a asp-action="ListUsers" asp-controller="FacilityAdmin" class="list-group-item @(action == "Index" ? "active" : "")">
+                        <span class="fas fa-user-alt"></span>
+                        all  Users
+                    </a>
+                    <a asp-action="ListFacilityInCharge" asp-controller="FacilityAdmin" class="list-group-item @(action == "View Facility in -Charge" ? "active" : "")">
+                        <span class="fas fa-list-alt"></span>
+                        View Facility in-charge
+                    </a>
+                    <a asp-action="GenerateReport" asp-controller="FacilityAdmin" class="list-group-item @(action == "Generate Report" ? "active" : "")">
+                        <span class="fas fa-money-bill-wave-alt"></span>
+                        Generate Report
+                    </a>
+                    <a asp-action="OrdersBooking" asp-controller="FacilityAdmin" class="list-group-item @(action == "Orders" ? "active" : "")">
+                        <span class="fas fa-money-bill-wave-alt"></span>
+                        Orders
+                    </a>
+                    <a asp-action="List" asp-controller="FacilityAdmin" class="list-group-item @(action == "Manage Facilities" ? "active" : "")">
+                        <span class="fas fa-money-bill-wave-alt"></span>
+                        Manage Facilities
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                @RenderBody()
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Notification>
+@{
+    ViewBag.Title = "Booking Notification";
+}
+
+
+
+
+
+<style>
+
+
+    .container {
+        text-align: center;
+        padding: 20px;
+    }
+
+
+    .Message {
+        background-color: #f0f8ff;
+        border: 1px solid #87ceeb;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+
+        .payment-confirmation strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+</style>
+
+
+
+
+
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <div class=".Message">
+        <div class="row bg-light border rounded p-3 mb-3">
+            <div class="col-md-6">
+                <h4>@item.Title</h4>
+            </div>
+            <div class="col-md-6 text-right">
+                <p>@item.DATE.ToString("hh:mm tt")</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>@item.Description</p>
+            </div>
+        </div>
+        </div>
+    }
+</div>
+
+
+
+

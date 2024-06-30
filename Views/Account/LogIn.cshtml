@@ -1,0 +1,113 @@
+﻿@model SignInViewModel
+@{
+    ViewData["Title"] = "Sign In";
+}
+@if (TempData["ProfileEditedMessage"] != null)
+{
+	<div class="alert alert-success alert-dismissible" role="alert">
+		<button type="button" class="btn-close"
+				data-bs-dismiss="alert" aria-label="Close">
+		</button>
+		@TempData["ProfileEditedMessage"]
+	</div>
+}
+@if (TempData["userFound"] != null)
+{
+	<div class="alert alert-success alert-dismissible" role="alert">
+		<button type="button" class="btn-close"
+				data-bs-dismiss="alert" aria-label="Close">
+		</button>
+		@TempData["userFound"]
+	</div>
+	
+}
+
+
+<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
+<div class="img js-fullheight section" style="background-image: url('/Images/bg.jpg');">
+	<div class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Log In ufs-Facility Booking Online</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+						<h3 class="mb-4 text-center">Have an account?</h3>
+						<form asp-action="LogIn" asp-controller="Account" method="post" class="signin-form">
+							@*<input type="hidden" asp-for="ReturnUrl" />*@
+							<div class="form-group mb-3">
+								<input type="text" asp-for="Email" class="form-control" placeholder="Email" required>
+								<div><span asp-validation-for="Email" class="text-danger"></span></div>
+							</div>
+
+							<div class="form-group mb-3">
+								<div class="input-group">
+									<input id="password-field" asp-for="Password" type="password" class="form-control" placeholder="Password" required>
+									
+								</div>
+								<div><span asp-validation-for="Password" class="text-danger"></span></div>
+							</div>
+
+
+							<div class="form-group">
+								<button type="submit" class="form-control btn btn-primary submit px-3">Sign In</button>
+							</div>
+							<div class="form-group d-md-flex">
+								<div class="w-50">
+									<label class="checkbox-wrap checkbox-primary">
+										Remember Me
+										<input type="checkbox" checked>
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								<div class="w-50 text-md-right">
+									 <a asp-controller="Account" asp-action="ForgotPassword" style="color: #fff">Forgot Password</a>
+								</div>
+							</div>
+						</form>
+						<p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
+						<div class="social d-flex text-center">
+							<a asp-controller="Account" asp-action="Register" class="custom-button">
+								<span class="ion-logo-facebook mr-2"></span> Register
+							</a>
+							<a asp-controller="Home" asp-action="Index" class="custom-button">
+								<span class="ion-logo-twitter "></span> Home Page
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	document.getElementById("toggle-password").addEventListener("click", function () {
+		var passwordField = document.getElementById("password-field");
+
+		if (passwordField.type === "password") {
+			passwordField.type = "text";
+			this.classList.remove("fa-eye");
+			this.classList.add("fa-eye-slash");
+		} else {
+			passwordField.type = "password";
+			this.classList.remove("fa-eye-slash");
+			this.classList.add("fa-eye");
+		}
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+

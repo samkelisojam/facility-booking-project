@@ -1,0 +1,35 @@
+﻿@model List<Transaction>
+@{
+    Layout = "_SideLayout";
+    ViewBag.Title = "View Transaction";
+}
+
+
+
+<table class="table table-bordered table-striped table-dark">
+    <thead>
+        <tr>
+            <th>Transaction ID</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Detail</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in Model)
+        {
+            <tr>
+                <td>@transaction.TransactionId</td>
+                <td>@transaction.TransactionDate</td>
+                <td>@transaction.PaymentAmount</td>
+                <td>
+                    <i class="fas fa-info-circle"></i> <!-- Font Awesome info circle icon -->
+                @transaction.TransactionDetail
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

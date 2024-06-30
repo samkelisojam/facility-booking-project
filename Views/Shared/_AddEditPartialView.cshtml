@@ -1,0 +1,58 @@
+﻿@model Facility
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<div class="mb-3">
+    <label asp-for="Name" class="form-label">
+
+    </label>
+    <div><span asp-validation-for="Name" class="text-danger"></span></div>
+    <input asp-for="Name" class="form-control" />
+</div>
+<div class="mb-3">
+    <label asp-for="MaxUsersAtOnce" class="form-label">
+
+    </label>
+    <div><span asp-validation-for="MaxUsersAtOnce" class="text-danger"></span></div>
+    <input asp-for="MaxUsersAtOnce" class="form-control" />
+</div>
+
+<div class="mb-3">
+    <label asp-for="Price" class="form-label">
+
+    </label>
+    <div><span asp-validation-for="Price" class="text-danger"></span></div>
+    <input asp-for="Price" class="form-control" />
+</div>
+
+
+
+
+<div class="mb-3">
+    <label asp-for="Description" class="form-label">
+
+    </label>
+    <div><span asp-validation-for="Description" class="text-danger"></span></div>
+    <textarea asp-for="Description" class="form-control" ></textarea>
+</div>
+
+<div class="mb-3">
+    <label   asp-for="InCharge" class="form-label">
+    </label>
+    <div><span asp-validation-for="InCharge" class="text-danger"></span></div>
+
+    <select asp-for="InCharge" class="form-select" asp-items="@ViewBag.FacilityInChargeUsers">
+        <option value="">Allocate No one</option>
+    </select>
+</div>
+<div class="col">
+   
+</div>
+
+<div class="mb-3 visually-hidden">
+    <label asp-for="ImageThumbnailUrl" class="form-label">
+
+    </label>
+    <div><span asp-validation-for="ImageThumbnailUrl" class="text-danger"></span></div>
+    <input asp-for="ImageThumbnailUrl" type="hidden" value="@string.Empty" class="form-control" />
+</div>
+

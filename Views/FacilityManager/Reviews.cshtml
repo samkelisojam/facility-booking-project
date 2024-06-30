@@ -1,0 +1,62 @@
+﻿@model IEnumerable<FeedBack>
+
+
+@{
+    Layout = "_SideLayout";
+    ViewBag.Title = "Review";
+}
+
+<table class="table table-bordered table-striped container mt-5">
+    <h1 class="text-center pt-5"> Reviews</h1>
+    <thead>
+        <tr>
+            <th>
+                <i class="fas fa-user" style="color: blue;"></i> ID
+            </th>
+
+            <th>
+                <i class="fas fa-star" style="color: green;"></i> Rating
+            </th>
+            <th>
+                <i class="fas fa-comment" style="color: green;"></i> Comment
+            </th>
+
+            <th>
+                <i class="fas fa-user" style="color: green;"></i> Reviewer
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rating in Model)
+        {
+            <tr>
+                <td>@rating.Id
+                <td>
+            
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                if (i < rating.Rate)
+                                {
+                            <span class="fas fa-star" style="color: gold;"></span>
+                                }
+                                else
+                                {
+                            <span class="far fa-star"></span>
+                                }
+                            }
+                </td>
+                <td>@rating.Comment</td>
+                <td>@rating.UserNameCoomnter</td>
+
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+﻿@model ProfileViewModel  
+@{
+    ViewBag.Title = "Edit Profile";
+}
+<div class="img js-fullheight section" style="background-image: url('/Images/bg.jpg');">
+    <div class="ftco-section">
+
+<div class="container  text-center">
+            <div class="rounded-circle profile-image" style="width: 150px; height: 150px; background-color: lightgray; margin: 0 auto; display: flex; justify-content: center; align-items: center;">
+                <i class="fas fa-user fa-3x" style="color: blue;"></i>
+            </div>
+
+    <h2 id="booking-title" class="pt-3">Profile</h2>
+</div>
+
+<div class="container">
+    <div class="container">
+        <form class="borders" id="booking-form" method="post">
+            <input asp-for="UserId" class="form-control" hidden />
+            <div class="mb-3">
+                <label asp-for="UserName" class="form-label">
+                    <i class="fas fa-user"></i> User-Name
+                </label>
+                <div><span asp-validation-for="UserName" class="text-danger"></span></div>
+                <input asp-for="UserName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="FirstName" class="form-label">
+                    <i class="fas fa-user"></i> First Name
+                </label>
+                <div><span asp-validation-for="FirstName" class="text-danger"></span></div>
+                <input asp-for="FirstName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="LastName" class="form-label">
+                    <i class="fas fa-user"></i> Last Name
+                </label>
+                <div><span asp-validation-for="LastName" class="text-danger"></span></div>
+                <input asp-for="LastName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">
+                    <i class="fas fa-envelope"></i> Email
+                </label>
+                <div><span asp-validation-for="Email" class="text-danger"></span></div>
+                <input asp-for="Email" class="form-control" />
+            </div>
+         
+
+            <button type="submit" class="btn btn-primary">Update</button>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+
+
+</div>
+</div>

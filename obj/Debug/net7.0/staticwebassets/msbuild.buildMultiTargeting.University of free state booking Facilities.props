@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\University of free state booking Facilities.props" />
+</Project>
